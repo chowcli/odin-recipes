@@ -1,6 +1,7 @@
 * {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   background-color: rgb(199, 228, 253);
+  box-sizing: border-box;
 }
 
 h1 {
