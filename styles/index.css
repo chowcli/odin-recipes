@@ -1,9 +1,12 @@
 * {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   background-color: rgb(199, 228, 253);
   box-sizing: border-box;
-  padding: 0px;
-  margin: 0px;
 }
 
 h1 {
@@ -35,12 +38,7 @@ h3 {
 h3,
 a {
   background-color: rgb(255, 239, 186);
-  display: block;
   margin-bottom: 10px;
-}
-
-.border {
-  background-color: rgb(255, 239, 186);
 }
 
 .main.border {
@@ -50,6 +48,7 @@ a {
   border-bottom-right-radius: 40px;
   box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
   margin: 20px 180px;
+  background-color: rgb(255, 239, 186);
 }
 
 .small.border {
@@ -57,5 +56,6 @@ a {
 }
 
 a {
+  display: block;
   text-decoration: none;
 }
